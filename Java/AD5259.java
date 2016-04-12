@@ -15,7 +15,7 @@ public class AD5259
 	{
 		// Create I2C bus
 		I2CBus Bus = I2CFactory.getInstance(I2CBus.BUS_1);
-		// Get I2C device, AD5667 I2C address is 0x18(24)
+		// Get I2C device, AD5259 I2C address is 0x18(24)
 		I2CDevice device = Bus.getDevice(0x18);
 		
 		// Send command byte, 0x00(00)
