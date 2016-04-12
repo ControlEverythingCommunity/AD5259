@@ -19,7 +19,6 @@ time.sleep(0.5)
 
 # AD5259 address, 0x18(24)
 # Read data back from 0x00(00), 1 byte
-# 
 data = bus.read_byte_data(0x18, 0x00)
 
 # Convert the data
