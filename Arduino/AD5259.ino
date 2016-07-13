@@ -8,6 +8,7 @@
 
 // AD5259 I2C address is 0x18(24)
 #define Addr 0x18
+
 void setup()
 {
   // Initialise I2C communication as Master
