@@ -10,7 +10,7 @@
 // AD5259 I2C address is 0x18(24)
 #define Addr 0x18
 
-float resistance = 0.0;
+double resistance = 0.0;
 void setup()
 {
   // Set variable
